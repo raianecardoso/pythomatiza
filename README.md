@@ -1,7 +1,7 @@
 Python 18Horas
 ===
 
-![test status](https://raw.githubusercontent.com/gabrielbdornas/python-18horas/coverage-badge/testes.svg?raw=true)
+![test status](https://raw.githubusercontent.com/gabrielbdornas/python-18horas/coverage-badge/badge/testes.svg?raw=true)
 
 ## Setup projeto
 

@@ -19,8 +19,9 @@ jobs:
       - name: Creating tests badge
         continue-on-error: true
         run: |
-          pytest --local-badge-output-dir . --local-badge-generate=status
+          pytest --local-badge-output-dir badge/ --local-badge-generate=status
       - name: Publish test badge to coverage-badge branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: coverage-badge
+          folder: badge
