@@ -1,9 +1,9 @@
 from dict_methods import (
-                        find_dict_element,
-                        correct_dict,
-                        add_dict_item,
-                        find_out_key_error,
-                      )
+    find_dict_element,
+    correct_dict,
+    add_dict_item,
+    find_out_key_error,
+)
 import inspect
 import pytest
 

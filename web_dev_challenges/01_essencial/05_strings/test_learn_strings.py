@@ -1,10 +1,10 @@
 from learn_strings import (
-                            has_letter,
-                            uper_case,
-                            lower_case,
-                            capitalize,
-                            reverse,
-                          )
+    has_letter,
+    uper_case,
+    lower_case,
+    capitalize,
+    reverse,
+)
 import inspect
 import pytest
 

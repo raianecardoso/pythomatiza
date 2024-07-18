@@ -1,10 +1,10 @@
-from aula import (
-                  mega_combinations,
-                  word_len,
-                  full_name,
-                  is_even,
-                  calculator,
-                  )
+from desafios_essencial import (
+    mega_combinations,
+    word_len,
+    full_name,
+    is_even,
+    calculator,
+)
 import pytest
 
 

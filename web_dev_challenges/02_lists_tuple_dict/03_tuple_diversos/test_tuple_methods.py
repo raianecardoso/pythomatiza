@@ -1,8 +1,8 @@
 from tuple_methods import (
-                        tuple_sum,
-                        find_second_element,
-                        find_out_typle_error,
-                      )
+    tuple_sum,
+    find_second_element,
+    find_out_typle_error,
+)
 import inspect
 import pytest
 
@@ -30,5 +30,3 @@ def test_find_second_element():
 def test_find_out_typle_error():
   my_tuple = 1, 2, 3, 4, 5
   assert find_out_typle_error() == my_tuple, f"Função deverá retornar my_tuple completa"
-
-

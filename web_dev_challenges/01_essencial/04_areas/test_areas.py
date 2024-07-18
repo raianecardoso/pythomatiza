@@ -1,8 +1,8 @@
 from areas import (
-                    circle_area,
-                    square_area,
-                    rectangle_area,
-                  )
+    circle_area,
+    square_area,
+    rectangle_area,
+)
 
 import inspect
 import pytest

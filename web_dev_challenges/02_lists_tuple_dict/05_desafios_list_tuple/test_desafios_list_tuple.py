@@ -1,7 +1,7 @@
-from aula import (
-                        days_in_a_month,
-                        calory_counter,
-                      )
+from desafios_list_tuple import (
+    days_in_a_month,
+    calory_counter,
+)
 import inspect
 import pytest
 
@@ -42,4 +42,3 @@ def test_days_in_a_month(month, expected_result):
 ])
 def test_calory_counter(first_item, second_item, third_item, expected_result):
   assert calory_counter(first_item, second_item, third_item) == expected_result, f"As calorias de {first_item}, {second_item} e {third_item} são iguais a {expected_result}"
-

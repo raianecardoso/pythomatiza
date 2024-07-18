@@ -1,12 +1,12 @@
 from operators import (
-                        add,
-                        sub,
-                        mult,
-                        div,
-                        expo,
-                        remai,
-                        quoti_remai,
-                        )
+    add,
+    sub,
+    mult,
+    div,
+    expo,
+    remai,
+    quoti_remai,
+)
 import inspect
 import pytest
 

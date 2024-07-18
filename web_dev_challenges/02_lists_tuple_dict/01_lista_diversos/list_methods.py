@@ -10,7 +10,7 @@ def find_list_element(my_list):
   # TODO: Retorne o segundo elemento da lista recebida
   pass
 
-def find_las_list_element(my_list):
+def find_last_list_element(my_list):
   # TODO: Retorne o último elemento da lista recebida
   pass
 
