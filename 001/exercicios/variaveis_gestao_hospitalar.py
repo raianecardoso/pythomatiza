@@ -9,9 +9,10 @@
 # name
 nome_paciente = 'João' # str
 idade = 20 #int
-novo_paciente = False
+novo_paciente = True
+mensagem = 'o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos'
 
 if novo_paciente:
-    print('o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos é um novo paciente')
+    print(mensagem, 'é um novo paciente')
 else:
-    print('o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos NÃO é um novo paciente')
+    print(mensagem, 'NÃO é um novo paciente')
