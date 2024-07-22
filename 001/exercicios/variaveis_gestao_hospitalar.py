@@ -9,12 +9,17 @@
 # name
 nome_paciente = input('Qual é o seu nome: ') # str
 idade = input('Qual é a sua idade: ') #int
-novo_paciente = input('Você já foi atendido neste hospital: (Sim ou Não): ')
+resposta_novo_paciente = input('Você já foi atendido neste hospital: (Sim ou Não): ')
+novo_paciente = False
+
+if resposta_novo_paciente.lower() == 'sim':
+    novo_paciente = True
+
 mensagem = 'o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos'
 
-if novo_paciente == 'Sim':
+
+
+if novo_paciente:
     print(mensagem, 'é um novo paciente')
-elif novo_paciente == 'Não':
-    print(mensagem, 'NÃO é um novo paciente')
 else:
-    print('Preencha novamente se você é um novo paciente (Sim ou não)')
+    print(mensagem, 'NÃO é um novo paciente')
