@@ -9,5 +9,9 @@
 # name
 nome_paciente = 'João' # str
 idade = 20 #int
-novo_paciente = True
-print('o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos é um novo paciente? ', novo_paciente)
+novo_paciente = False
+
+if novo_paciente:
+    print('o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos é um novo paciente')
+else:
+    print('o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos NÃO é um novo paciente')
