@@ -9,14 +9,16 @@
 # name
 nome_paciente = input('Qual é o seu nome: ') # str
 idade = input('Qual é a sua idade: ') #int
-resposta_novo_paciente = input('Você já foi atendido neste hospital: (Sim ou Não): ')
-novo_paciente = False
 
-if resposta_novo_paciente.lower() == 'sim':
-    novo_paciente = True
+while True:
+    novo_paciente = input('Você já foi atendido neste hospital: (1 - Sim ou 0 - Não): ')
+    if novo_paciente != '0' and novo_paciente != '1':
+        print('Por favor responda apenas 0 ou 1.')
+    else:
+        novo_paciente = int(novo_paciente)
+        break
 
 mensagem = 'o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos'
-
 
 
 if novo_paciente:
