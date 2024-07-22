@@ -10,4 +10,4 @@
 nome_paciente = 'João' # str
 idade = 20 #int
 novo_paciente = True
-print(nome_paciente, idade, novo_paciente)
+print('o paciente ' + nome_paciente + ' de ' + str(idade) + ' anos é um novo paciente? ', novo_paciente)
