@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: coverage-badge
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
@@ -23,6 +23,7 @@ jobs:
       - name: Creating tests badge
         continue-on-error: true
         run: |
+          git checkout coverage-badge
           pytest --local-badge-output-dir badge/ --local-badge-generate=status
           git add .
           git commit -m "Update test badge"
