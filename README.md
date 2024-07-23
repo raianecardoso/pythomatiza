@@ -1,7 +1,7 @@
 Python 18Horas
 ===
 
-![test status](https://raw.githubusercontent.com/gabrielbdornas/python-18horas/coverage-badge/badge/testes.svg?raw=true)
+![test status](https://raw.githubusercontent.com/gabrielbdornas/python-18horas/coverage-badge/tests.svg?raw=true)
 
 ## Setup projeto
 
@@ -56,4 +56,3 @@ $ cd ~/caminho/para/python-18horas/web-dev-challenges/pasta/desafio/desejado
 # rodar os testes
 $ pytest
 ```
-

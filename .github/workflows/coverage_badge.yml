@@ -23,8 +23,9 @@ jobs:
       - name: Creating tests badge
         continue-on-error: true
         run: |
-          pytest --local-badge-output-dir badge/ --local-badge-generate=status
-          git checkout coverage-badge
+          pytest --local-badge-output-dir . --local-badge-generate=status
           git add .
           git commit -m "Update test badge"
+          git checkout coverage-badge
+          git checkout main -- tests.svg
           git push origin coverage-badge
