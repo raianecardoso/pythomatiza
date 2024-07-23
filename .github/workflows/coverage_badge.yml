@@ -24,6 +24,7 @@ jobs:
         continue-on-error: true
         run: |
           pytest --local-badge-output-dir . --local-badge-generate=status
+          git fetch
           git add .
           git commit -m "Update test badge"
           git checkout coverage-badge
