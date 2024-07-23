@@ -16,12 +16,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+      - name: Set git config
+        uses: fregante/setup-git-user@v2
       - name: Creating tests badge
         continue-on-error: true
         run: |
+          git checkout coverage-badge
           pytest --local-badge-output-dir badge/ --local-badge-generate=status
-      - name: Publish test badge to coverage-badge branch
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: coverage-badge
-          folder: badge
+          git add .
+          git commit -m "Update test badge"
+          git push origin coverage-badge
