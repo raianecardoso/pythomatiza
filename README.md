@@ -56,3 +56,4 @@ $ cd ~/caminho/para/python-18horas/web-dev-challenges/pasta/desafio/desejado
 # rodar os testes
 $ pytest
 ```
+
