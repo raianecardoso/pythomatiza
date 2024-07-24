@@ -26,6 +26,7 @@ jobs:
           pytest --local-badge-output-dir . --local-badge-generate=status
           git add .
           git commit -m "Create/Update tests badge"
+          git push origin  main
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
