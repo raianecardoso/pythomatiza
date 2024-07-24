@@ -5,9 +5,13 @@ Python 18Horas
 
 ## Setup projeto
 
+- Fork o repositório para seu usuário github. Não se esqueça de desmarcar a opção "Copy the `main` branch only" antes de clicar em `Create fork`.
+
+![image](https://github.com/user-attachments/assets/e2112160-cfb2-445d-b7d3-f478d79ae0b1)
+
+- Clone o repositório forkado e instale os pacotes:
+
 ```python
-# fork o repositório para seu usuário github
-# clonar repositório forkado
 git clone git@github.com:<usuario-github>/python-18horas.git
 
 # navegar para o repositório criado
