@@ -24,20 +24,11 @@ jobs:
         continue-on-error: true
         run: |
           pytest --local-badge-output-dir . --local-badge-generate=status
-      - name: Commit tests badge
+      - name: Commit tests badge on coverage-badge branch
         run: |
           git add .
           git commit -m "Create/Update tests badge main branch"
           git checkout coverage-badge
           git checkout main -- tests.svg
           git commit -m "Create/Update tests badge coverage-badge branch"
-          git push origin coverage-badge
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          ref: coverage-badge
-      - name: Copy badge to coverage-badge branch
-        run: |
-          git checkout main -- tests.svg
-          git commit -m "Create/Update tests badge"
           git push origin coverage-badge
