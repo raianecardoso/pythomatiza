@@ -27,8 +27,11 @@ jobs:
       - name: Commit tests badge
         run: |
           git add .
-          git commit -m "Create/Update tests badge"
-          git push origin  main
+          git commit -m "Create/Update tests badge main branch"
+          git checkout coverage-badge
+          git checkout main -- tests.svg
+          git commit -m "Create/Update tests badge coverage-badge branch"
+          git push origin coverage-badge
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
