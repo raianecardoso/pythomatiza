@@ -25,6 +25,7 @@ jobs:
         run: |
           pytest --local-badge-output-dir . --local-badge-generate=status
       - name: Commit tests badge
+        run: |
           git add .
           git commit -m "Create/Update tests badge"
           git push origin  main
