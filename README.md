@@ -1,4 +1,4 @@
-Python 18Horas
+Pythomatiza
 ===
 
 ![test status](https://raw.githubusercontent.com/gabrielbdornas/python-18horas/coverage-badge/tests.svg?raw=true)
@@ -12,14 +12,14 @@ Python 18Horas
 - Clone o repositório forkado e instale os pacotes:
 
 ```python
-git clone git@github.com:<usuario-github>/python-18horas.git
+git clone git@github.com:<usuario-github>/pythomatiza.git
 
 # navegar para o repositório criado
-cd python-18horas
+cd pythomatiza
 
 # criar remote upstream
 # caminho abaixo usa ssh
-git remote add upstream git@github.com:gabrielbdornas/python-18horas.git
+git remote add upstream git@github.com:automatiza-mg/pythomatiza.git
 
 # criar ambiente virtual python e instale os pacotes necessários - Windows
 $ python -m venv venv
@@ -37,7 +37,7 @@ $ pip install -r requirements.txt
 ```python
 # navegar para o nosso repositório
 # não copie o código abaixo cegamente
-$ cd ~/caminho/para/python-18horas
+$ cd ~/caminho/para/pythomatiza
 
 # certificar que não há nada para commitar
 # se git status não estiver limpo, commit/restore
