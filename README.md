@@ -52,7 +52,7 @@ $ git pull upstream main -X ours
 ```python
 # navegar até a pasta do desafio/exercício desejado
 # não copie o código abaixo cegamente
-$ cd ~/caminho/para/python-18horas/web-dev-challenges/pasta/desafio/desejado
+$ cd ~/caminho/para/pythomatiza/web-dev-challenges/pasta/desafio/desejado
 
 # abrir o desafio no editor de texto para resolvê-lo
 # commitar quando achar necessário
@@ -60,4 +60,3 @@ $ cd ~/caminho/para/python-18horas/web-dev-challenges/pasta/desafio/desejado
 # rodar os testes
 $ pytest
 ```
-
