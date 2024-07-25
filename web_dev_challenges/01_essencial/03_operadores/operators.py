@@ -1,6 +1,6 @@
 def add(first_number, second_number):
   # TODO: retorne a soma dos parâmetros first_number e second_number
-  pass
+  return first_number + second_number
 
 def sub(first_number, second_number):
   # TODO: retorne a subtração dos parâmetros first_number e second_number
