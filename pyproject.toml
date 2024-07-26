@@ -1,2 +1,2 @@
 [tool.taskipy.tasks]
-up = { cmd = "git pull upstream main -X ours", help = "Realiza pull no remote Upstream (automatiza-mg )." }
+up = { cmd = "git pull upstream main -X ours", help = "Realiza pull no remote Upstream (automatiza-mg)." }
