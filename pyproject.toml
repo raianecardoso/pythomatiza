@@ -1,2 +1,2 @@
 [tool.taskipy.tasks]
-up-upstream = { cmd = "git pull upstream main -X ours", help = "Pull no remote Upstream" }
+up = { cmd = "git pull upstream main -X ours", help = "Realiza pull no remote Upstream para realização dos exercícios." }
