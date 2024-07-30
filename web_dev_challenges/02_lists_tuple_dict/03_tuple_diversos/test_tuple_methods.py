@@ -13,8 +13,8 @@ def test_not_none():
 
 def test_type():
   assert type(tuple_sum()) == int, "Esperado um número inteiro"
-  assert type(find_second_element()) == int, "Esperado um dicionário"
-  assert type(find_out_typle_error()) == tuple, "Esperado um dicionário"
+  assert type(find_second_element()) == int, "Esperado um inteiro"
+  assert type(find_out_typle_error()) == tuple, "Esperado uma tupla"
 
 def test_parameters():
   assert len(inspect.getfullargspec(tuple_sum).args) == 0, "Assinatura da função não deverá receber parâmetros"

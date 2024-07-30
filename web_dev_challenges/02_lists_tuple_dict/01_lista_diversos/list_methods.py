@@ -29,5 +29,5 @@ def x_not_in_the_list_error():
   return my_list[0]
 
 def list_remove_last(my_list):
-  # TODO: Remover a lista recebida como argumento sem o último elemento
+  # TODO: Retorne a lista recebida como argumento sem o último elemento
   pass
