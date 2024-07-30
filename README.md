@@ -7,11 +7,16 @@ Pythomatiza
 
 - Fork o repositório para seu usuário github. Não se esqueça de desmarcar a opção "Copy the `main` branch only" antes de clicar em `Create fork`.
 
-![image](https://github.com/user-attachments/assets/e2112160-cfb2-445d-b7d3-f478d79ae0b1)
+![image](https://github.com/user-attachments/assets/c5f08479-32ab-4815-b41a-f157c5483912)
+
+![image](https://github.com/user-attachments/assets/ead55832-c990-46ab-a312-c49c308f1a6e)
+
+- Autorize o funcionamento dos Actions:
 
 - Clone o repositório forkado e instale os pacotes:
 
 ```python
+# clonar o repositório forkado (repositório criado em seu usuário e não o da organização automatiza-mg)
 git clone git@github.com:<usuario-github>/pythomatiza.git
 
 # navegar para o repositório criado
@@ -39,12 +44,19 @@ $ pip install -r requirements.txt
 # não copie o código abaixo cegamente
 $ cd ~/caminho/para/pythomatiza
 
+# ativar ambiente virtual python
+# windows
+$ . venv/Scripts/activate
+# linux e mac
+$ . venv/bin/activate
+
 # certificar que não há nada para commitar
 # se git status não estiver limpo, commit/restore
 $ git status
 
-# Certificar que você está com a versão mais atualizada
-$ git pull upstream main -X ours
+# certificar que você está com a versão mais atualizada
+# git pull upstream main -X ours
+$ task up
 ```
 
 ## Como rodar seus testes
