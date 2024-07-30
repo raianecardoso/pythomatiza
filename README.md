@@ -13,6 +13,8 @@ Pythomatiza
 
 - Autorize o funcionamento dos Actions:
 
+![image](https://github.com/user-attachments/assets/40640f3a-115c-45dc-899b-4289d2db0882)
+
 - Clone o repositório forkado e instale os pacotes:
 
 ```python
@@ -68,7 +70,14 @@ $ cd ~/caminho/para/pythomatiza/web-dev-challenges/pasta/desafio/desejado
 
 # abrir o desafio no editor de texto para resolvê-lo
 # commitar quando achar necessário
+# realize o push para origin main quando achar necessário
 
 # rodar os testes
 $ pytest
 ```
+
+## Acompanhar os exercícios que já passaram nos testes
+
+No alto do arquivo `README.md` de seu repositório forkado existe a badge ![test status](../coverage-badge/tests.svg?raw=true).
+Toda vez que você realizar um `git push origin main` um `Actions` será executado para atualizar esta badge com todos os testes realizados e aprovados.
+Isso dará uma pequena dimensão de sua evolução na correção dos exercícios propostos.
