@@ -1,7 +1,7 @@
 Pythomatiza
 ===
 
-![test status](https://raw.githubusercontent.com/gabrielbdornas/python-18horas/coverage-badge/tests.svg?raw=true)
+![test status](pythomatiza/blob/coverage-badge/tests.svg)
 
 ## Setup projeto
 
