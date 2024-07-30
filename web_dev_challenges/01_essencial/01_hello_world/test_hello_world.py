@@ -14,7 +14,7 @@ def test_parameters():
 def test_options_hello_world():
   possible_anwsers = [
                       "Olá Mundo",
-                      "Olá mundo"
+                      "Olá mundo",
                       "Ola Mundo",
                       "olá mundo",
                       "ola mundo",
