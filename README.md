@@ -81,3 +81,4 @@ $ pytest
 No alto do arquivo `README.md` de seu repositório forkado existe a badge ![test status](../coverage-badge/tests.svg?raw=true).
 Toda vez que você realizar um `git push origin main` um `Actions` será executado para atualizar esta badge com todos os testes realizados e aprovados.
 Isso dará uma pequena dimensão de sua evolução na correção dos exercícios propostos.
+Com todos os testes aprovados, após a finalização dos exercícios, este badge ficará verde.
