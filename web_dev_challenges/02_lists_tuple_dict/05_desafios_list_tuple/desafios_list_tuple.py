@@ -19,9 +19,9 @@ def days_in_a_month(month):
   return meses_dias[month]
 
 def calory_counter(first_item, second_item, third_item):
-  # TODO: Contar quantas calorias em seu pedido na lanchonete
-  # TODO: Dado o dicionário my_foods, retorne a soma das calorias dos três itens solicitados
-  my_foods = {
+    # TODO: Contar quantas calorias em seu pedido na lanchonete
+    # TODO: Dado o dicionário my_foods, retorne a soma das calorias dos três itens solicitados
+    my_foods = {
     "Hamburger": 250,
     "Cheese Burger": 300,
     "Cheese Bacon Egg": 540,
