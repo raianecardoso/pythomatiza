@@ -1,7 +1,7 @@
 Pythomatiza
 ===
 
-![test status](pythomatiza/blob/coverage-badge/tests.svg)
+![test status](../coverage-badge/tests.svg?raw=true)
 
 ## Setup projeto
 
