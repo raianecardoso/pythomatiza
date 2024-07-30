@@ -2,3 +2,4 @@ ipdb==0.13.13
 pytest==8.2.2
 requests==2.32.3
 pytest-local-badge==1.0.3
+taskipy==1.13.0

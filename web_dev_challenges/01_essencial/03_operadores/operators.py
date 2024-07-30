@@ -24,4 +24,5 @@ def remai(first_number, second_number):
 
 def quoti_remai(first_number, second_number):
   # TODO: retorne o quociente e o resto da divisão, nesta exata ordem, dos parâmetros first_number e second_number
+  # Hint: Utilize a vírgula para separar os dois valores retornados na função
   pass
