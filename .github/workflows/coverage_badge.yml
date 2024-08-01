@@ -1,7 +1,9 @@
 on:
   push:
-    branches: ["main"]
-  pull_request:
+    branches:
+      - main
+    paths:
+      - 'web_dev_challenges/**'
 
 jobs:
   build:
@@ -25,6 +27,7 @@ jobs:
         run: |
           pytest --local-badge-output-dir . --local-badge-generate=status
       - name: Commit tests badge on coverage-badge branch
+        continue-on-error: true
         run: |
           git add .
           git commit -m "Create/Update tests badge main branch"
