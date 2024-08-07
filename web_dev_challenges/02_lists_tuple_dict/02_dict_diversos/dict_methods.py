@@ -7,7 +7,7 @@ def find_dict_element():
     'Antônio': 9,
     'Maria': 7
     }
-    pass
+    return my_dict['Júlio']
 
 def correct_dict():
     # TODO: No dicionário 'my_dict' são armazenados as notas de alunos, mas a aluna 'Ana' faz mais parte da turma
@@ -18,7 +18,8 @@ def correct_dict():
     'Antônio': 9,
     'Maria': 7
     }
-    pass
+    del my_dict['Ana']
+    return my_dict
 
 def add_dict_item():
     # TODO: No dicionário 'my_dict' são armazenados as notas de alunos, a aluna 'Carla' acabou de entrar na turma
@@ -29,7 +30,8 @@ def add_dict_item():
     'Antônio': 9,
     'Maria': 7
     }
-    pass
+    my_dict['Carla'] = 0
+    return my_dict
 
 def find_out_key_error():
     # TODO: Encontrar o erro no código abaixo
@@ -40,4 +42,4 @@ def find_out_key_error():
         'Antônio': 9,
         'Maria': 7
     }
-    return my_dict['Maria José']
+    return my_dict['Maria']
