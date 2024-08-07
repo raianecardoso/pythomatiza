@@ -4,7 +4,7 @@ Utilizar métodos em strings e aprender a pesquisar métodos em Python
 
 ## Especificação
 
-### Retorne áreas de figuras geométricas
+### Retorne resultados de manipulação com strings
 
 Abra o arquivo `learn_strings.py`. Certifique-se que todas as função do módulo **`return`** o solicitado.
 
