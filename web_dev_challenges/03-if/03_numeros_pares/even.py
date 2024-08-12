@@ -3,7 +3,4 @@ def is_even(number):
     # TODO: Retorne 'Número é par' se number for par e 'Número é inpar' se number for impar
     # Exemplo 1: number = 2,  resultado = 'Número é par'
     # Exemplo 2: number = 3,  resultado = 'Número é inpar'
-    if number % 2 == 0:
-        return 'Número é par'
-    else:
-        return 'Número é inpar'
+    pass
