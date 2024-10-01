@@ -1,14 +1,16 @@
+import math
+
 def mega_combinations():
     # Para pratirar a utilização de bibliotecas externas.
     # TODO:  calcule o número inteiro de combinações possíveis para um jogo da mega sena
     # Auxílio: https://www.w3schools.com/python/ref_math_comb.asp
-    pass
+    return(math.comb(60,6))
 
 def word_len(word):
     # Para pratirar a utilização de métodos já disponíveis
     # TODO: Retorne um número inteiro do número de caracteres de uma palavra (word)
     # Auxlílio: https://www.w3schools.com/python/ref_func_len.asp
-    pass
+    return int(len(word))
 
 def full_name(first_name, last_name):
     # Para pratirar a utilização de métodos já disponíveis e concatenação de strings
@@ -18,14 +20,17 @@ def full_name(first_name, last_name):
     # Exemplo 2: frist_name = 'Maria', last_name = 'José', resultado = 'Maria José'
     # Exemplo 3: frist_name = 'JOSÉ', last_name = 'MARIA', resultado = 'JOSÉ MARIA'
     # Auxílio: https://www.w3schools.com/python/python_strings_methods.asp
-    pass
+    return first_name.capitalize() +' '+ last_name.capitalize()
 
 def is_even(number):
     # Para praticar pesquisas na internet
     # TODO: Retorne True se number for par e False se number for impar
     # Exemplo 1: number = 2,  resultado = True
     # Exemplo 2: number = 3,  resultado = False
-    pass
+    if number % 2 == 0:
+        return True
+    else:
+        return False
 
 def calculator(first_number, second_number, operation):
     # Desafio avançado. Necessário utilizar conhecimentos não demostrados ainda (condicionais)
@@ -41,4 +46,13 @@ def calculator(first_number, second_number, operation):
     # se operation = 'subtração', return first_number - second_number
     # se operation = 'divisão', return first_number / second_number
     # se operation for diferente das opções acima, return 0
-    pass
+    if operation == 'soma':
+        return first_number + second_number
+    elif operation == 'multiplicação':
+        return first_number * second_number
+    elif operation == 'subtração':
+        return first_number - second_number
+    elif operation == 'divisão':
+        return first_number / second_number
+    else:
+        return 0
