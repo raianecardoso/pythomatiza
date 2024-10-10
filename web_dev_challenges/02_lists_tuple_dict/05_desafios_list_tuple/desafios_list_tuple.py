@@ -2,7 +2,21 @@ def days_in_a_month(month):
     # TODO: Informado o mês desejado, retornar o número de dias
     # TODO: Fevereiro será considerado como 28 dias
     # Auxílio: Utilize um dicionário para facilitar o trabalho
-    pass
+    calendario = {
+        'Janeiro': 31,
+        'Fevereiro': 28,
+        'Março': 31,
+        'Abril': 30,
+        'Maio': 31,
+        'Junho': 30,
+        'Julho': 31,
+        'Agosto': 31,
+        'Setembro': 30,
+        'Outubro': 31,
+        'Novembro': 30,
+        'Dezembro': 31
+    }
+    return calendario[month]
 
 def calory_counter(first_item, second_item, third_item):
     # TODO: Contar quantas calorias em seu pedido na lanchonete
@@ -17,4 +31,5 @@ def calory_counter(first_item, second_item, third_item):
     "Coca Cola": 150,
     "Sprite": 150,
     }
-    pass
+    calorias = my_foods[first_item] + my_foods[second_item] + my_foods[third_item]
+    return calorias
