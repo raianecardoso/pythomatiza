@@ -13,7 +13,7 @@ def test_parameters():
 
 @pytest.mark.parametrize("number, expected_result", [
   (2, 'Número é par'),
-  (3, 'Número é inpar'),
+  (3, 'Número é impar'),
   (20, 'Número é par'),
 ])
 def test_is_even(number, expected_result):
